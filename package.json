@@ -1,0 +1,38 @@
+{
+  "name": "@mcisne4/svelte-lib",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@sveltejs/package": "next",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.8.1",
+    "svelte": "^3.53.1",
+    "svelte-check": "^2.9.2",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  },
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    "./components/CodeBlock.svelte": "./components/CodeBlock.svelte",
+    "./components/TabButton.svelte": "./components/TabButton.svelte",
+    "./components": "./components/index.js",
+    "./page/TabRow.svelte": "./page/TabRow.svelte",
+    "./page": "./page/index.js",
+    "./svg/SvgCarrot.svelte": "./svg/SvgCarrot.svelte",
+    "./svg/SvgCode.svelte": "./svg/SvgCode.svelte",
+    "./svg/SvgCodeEdit.svelte": "./svg/SvgCodeEdit.svelte",
+    "./svg/SvgCodePage.svelte": "./svg/SvgCodePage.svelte",
+    "./svg/SvgHome.svelte": "./svg/SvgHome.svelte",
+    "./svg": "./svg/index.js"
+  }
+}
