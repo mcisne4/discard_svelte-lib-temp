@@ -21,6 +21,7 @@
     "vite": "^3.2.4"
   },
   "type": "module",
+  "svelte": ".",
   "exports": {
     "./package.json": "./package.json",
     "./components/CodeBlock.svelte": "./components/CodeBlock.svelte",
