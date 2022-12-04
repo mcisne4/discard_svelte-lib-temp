@@ -1,6 +1,6 @@
 {
   "name": "@mcisne4/svelte-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
@@ -33,6 +33,8 @@
     "./svg/SvgCodeEdit.svelte": "./svg/SvgCodeEdit.svelte",
     "./svg/SvgCodePage.svelte": "./svg/SvgCodePage.svelte",
     "./svg/SvgHome.svelte": "./svg/SvgHome.svelte",
+    "./svg/SvgMoon.svelte": "./svg/SvgMoon.svelte",
+    "./svg/SvgSun.svelte": "./svg/SvgSun.svelte",
     "./svg": "./svg/index.js"
   }
 }
