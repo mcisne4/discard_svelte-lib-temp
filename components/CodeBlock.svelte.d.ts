@@ -4,7 +4,7 @@ declare const __propDef: {
         code: string;
         style?: string | undefined;
         description?: string | null | undefined;
-        format?: ((code: string) => string) | undefined;
+        formatDescription?: ((code: string) => string) | undefined;
         margin?: string | undefined;
         descriptionStyle?: string | undefined;
     };

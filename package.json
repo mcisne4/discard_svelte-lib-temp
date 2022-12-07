@@ -25,6 +25,7 @@
   "exports": {
     "./package.json": "./package.json",
     "./components/CodeBlock.svelte": "./components/CodeBlock.svelte",
+    "./components/CodeBlockFile.svelte": "./components/CodeBlockFile.svelte",
     "./components/TabButton.svelte": "./components/TabButton.svelte",
     "./components": "./components/index.js",
     "./page/TabRow.svelte": "./page/TabRow.svelte",

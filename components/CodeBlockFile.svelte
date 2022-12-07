@@ -1,10 +1,8 @@
 <!-- === TYPESCRIPT === -->
 <script>export let code;
 export let style = '';
-export let description = null;
-export let formatDescription = (code) => code;
+export let filename;
 export let margin = '0.5rem 0';
-export let descriptionStyle = '';
 let widthCode;
 let widthContainer;
 let widthDescription = 0;
@@ -27,14 +25,10 @@ $: if (widthContainer - 4 > widthCode) {
   style:width={computedWidth}
   style:margin
 >
-  {#if description}
+  {#if filename}
     <div class="code-block-description">
-      <p
-        class="code-block-description-content"
-        bind:clientWidth={widthDescription}
-        style={descriptionStyle}
-      >
-        {@html formatDescription(description)}
+      <p class="code-block-description-content" bind:clientWidth={widthDescription}>
+        File: <em>{filename}</em>
       </p>
     </div>
   {/if}
@@ -60,6 +54,9 @@ $: if (widthContainer - 4 > widthCode) {
     display: inline-block;
     padding: 0.25rem 1rem;
     margin: 0;
+  }
+  .code-block-description-content em {
+    color: var(--code-block-accent-fg-highlight, #fff);
   }
   .code-block-code {
     padding: 0;
