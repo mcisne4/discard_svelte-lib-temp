@@ -30,7 +30,7 @@
     "./components": "./components/index.js",
     "./page/TabRow.svelte": "./page/TabRow.svelte",
     "./page": "./page/index.js",
-    "./svg/SvgCarrot.svelte": "./svg/SvgCarrot.svelte",
+    "./svg/SvgCaret.svelte": "./svg/SvgCaret.svelte",
     "./svg/SvgCode.svelte": "./svg/SvgCode.svelte",
     "./svg/SvgCodeEdit.svelte": "./svg/SvgCodeEdit.svelte",
     "./svg/SvgCodePage.svelte": "./svg/SvgCodePage.svelte",

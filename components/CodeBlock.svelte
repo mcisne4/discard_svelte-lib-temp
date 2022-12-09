@@ -1,4 +1,4 @@
-<!-- === TYPESCRIPT === -->
+<!-- === SCRIPT === -->
 <script>export let code;
 export let style = '';
 export let description = null;

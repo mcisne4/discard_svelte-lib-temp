@@ -1,4 +1,4 @@
-<!-- === TYPESCRIPT === -->
+<!-- === SCRIPT === -->
 <script>import TabButton from '../components/TabButton.svelte';
 export let placement = 'top';
 export let tabs;

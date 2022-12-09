@@ -1,3 +1,4 @@
+<!-- === SCRIPT === -->
 <script>export let style = '';
 export let active = false;
 export let placement = 'top';
@@ -19,10 +20,12 @@ else if (placement === 'bottom') {
 _style += style;
 </script>
 
+<!-- === COMPONENT === -->
 <button class:active style={_style} on:click>
   <slot />
 </button>
 
+<!-- === STYLE === -->
 <style>
   button {
     background-color: var(--tab-bg, #000);
